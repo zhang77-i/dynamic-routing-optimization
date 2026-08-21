@@ -1,0 +1,1739 @@
+{
+  "instance_id": "jl_r53_0810",
+  "service_date_anchor": "2000-08-10",
+  "reference_year_is_synthetic": true,
+  "region_id": 53,
+  "dispatch_interval_seconds": 300,
+  "couriers": [
+    {
+      "courier_id": 75,
+      "start_x": 14089357.293308636,
+      "start_y": 5436416.291494005,
+      "start_source": "earliest_valid_accept_gps"
+    },
+    {
+      "courier_id": 487,
+      "start_x": 14089358.406503547,
+      "start_y": 5436424.004731661,
+      "start_source": "earliest_valid_accept_gps"
+    },
+    {
+      "courier_id": 1103,
+      "start_x": 14089355.06691882,
+      "start_y": 5436411.663554517,
+      "start_source": "earliest_valid_accept_gps"
+    },
+    {
+      "courier_id": 4474,
+      "start_x": 14089377.33081698,
+      "start_y": 5436410.120908537,
+      "start_source": "earliest_valid_accept_gps"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 304998,
+      "courier_id": 75,
+      "release_seconds": 29940,
+      "observed_delivery_seconds": 47580,
+      "destination_x": 14086899.35895192,
+      "destination_y": 5438320.114458309,
+      "road_node_id": 47335,
+      "snap_distance_m": 119.38296034751885
+    },
+    {
+      "order_id": 1217275,
+      "courier_id": 75,
+      "release_seconds": 29940,
+      "observed_delivery_seconds": 44460,
+      "destination_x": 14088096.04347795,
+      "destination_y": 5439650.24696152,
+      "road_node_id": 51112,
+      "snap_distance_m": 200.69821887542093
+    },
+    {
+      "order_id": 4093653,
+      "courier_id": 75,
+      "release_seconds": 29940,
+      "observed_delivery_seconds": 47040,
+      "destination_x": 14086726.813741192,
+      "destination_y": 5438317.028527359,
+      "road_node_id": 47154,
+      "snap_distance_m": 11.960746797268028
+    },
+    {
+      "order_id": 3119913,
+      "courier_id": 75,
+      "release_seconds": 30000,
+      "observed_delivery_seconds": 43800,
+      "destination_x": 14088564.69853419,
+      "destination_y": 5439696.542735373,
+      "road_node_id": 52442,
+      "snap_distance_m": 177.55778806049233
+    },
+    {
+      "order_id": 1190008,
+      "courier_id": 75,
+      "release_seconds": 30060,
+      "observed_delivery_seconds": 46260,
+      "destination_x": 14087076.356942283,
+      "destination_y": 5438060.8998625185,
+      "road_node_id": 47374,
+      "snap_distance_m": 261.3580799995139
+    },
+    {
+      "order_id": 3693995,
+      "courier_id": 487,
+      "release_seconds": 30420,
+      "observed_delivery_seconds": 48720,
+      "destination_x": 14084474.820442442,
+      "destination_y": 5434608.486710619,
+      "road_node_id": 40997,
+      "snap_distance_m": 167.2226913892549
+    },
+    {
+      "order_id": 159183,
+      "courier_id": 487,
+      "release_seconds": 30480,
+      "observed_delivery_seconds": 50520,
+      "destination_x": 14084612.856611028,
+      "destination_y": 5435228.5299569685,
+      "road_node_id": 41487,
+      "snap_distance_m": 157.47111553107976
+    },
+    {
+      "order_id": 217407,
+      "courier_id": 487,
+      "release_seconds": 30480,
+      "observed_delivery_seconds": 49860,
+      "destination_x": 14084926.777575064,
+      "destination_y": 5434906.163957729,
+      "road_node_id": 42383,
+      "snap_distance_m": 133.2204675592579
+    },
+    {
+      "order_id": 2526051,
+      "courier_id": 487,
+      "release_seconds": 30540,
+      "observed_delivery_seconds": 47880,
+      "destination_x": 14083992.807047307,
+      "destination_y": 5434642.418346458,
+      "road_node_id": 39934,
+      "snap_distance_m": 66.76309839198063
+    },
+    {
+      "order_id": 1872610,
+      "courier_id": 487,
+      "release_seconds": 30600,
+      "observed_delivery_seconds": 44640,
+      "destination_x": 14085335.320106277,
+      "destination_y": 5435208.478154398,
+      "road_node_id": 43592,
+      "snap_distance_m": 153.02794595483408
+    },
+    {
+      "order_id": 3274672,
+      "courier_id": 4474,
+      "release_seconds": 30600,
+      "observed_delivery_seconds": 55380,
+      "destination_x": 14088517.944348056,
+      "destination_y": 5437203.075000506,
+      "road_node_id": 52924,
+      "snap_distance_m": 156.11738170725658
+    },
+    {
+      "order_id": 3330705,
+      "courier_id": 4474,
+      "release_seconds": 30600,
+      "observed_delivery_seconds": 53160,
+      "destination_x": 14088332.040798431,
+      "destination_y": 5438084.043726282,
+      "road_node_id": 51735,
+      "snap_distance_m": 25.40649323149994
+    },
+    {
+      "order_id": 939350,
+      "courier_id": 4474,
+      "release_seconds": 30720,
+      "observed_delivery_seconds": 34560,
+      "destination_x": 14088690.489558786,
+      "destination_y": 5436036.808175842,
+      "road_node_id": 52405,
+      "snap_distance_m": 157.04370511092452
+    },
+    {
+      "order_id": 2127410,
+      "courier_id": 4474,
+      "release_seconds": 30720,
+      "observed_delivery_seconds": 36000,
+      "destination_x": 14088167.287952056,
+      "destination_y": 5435200.765934256,
+      "road_node_id": 50819,
+      "snap_distance_m": 162.57172884686275
+    },
+    {
+      "order_id": 2183772,
+      "courier_id": 4474,
+      "release_seconds": 30720,
+      "observed_delivery_seconds": 61620,
+      "destination_x": 14088409.964441985,
+      "destination_y": 5434485.099997163,
+      "road_node_id": 51881,
+      "snap_distance_m": 35.669230274791666
+    },
+    {
+      "order_id": 3020421,
+      "courier_id": 4474,
+      "release_seconds": 30720,
+      "observed_delivery_seconds": 62460,
+      "destination_x": 14088317.569264626,
+      "destination_y": 5434650.130099301,
+      "road_node_id": 51838,
+      "snap_distance_m": 58.69326607619441
+    },
+    {
+      "order_id": 1316974,
+      "courier_id": 75,
+      "release_seconds": 30780,
+      "observed_delivery_seconds": 40500,
+      "destination_x": 14089510.914205933,
+      "destination_y": 5438321.65742417,
+      "road_node_id": 55827,
+      "snap_distance_m": 137.94543345295367
+    },
+    {
+      "order_id": 1519340,
+      "courier_id": 75,
+      "release_seconds": 30780,
+      "observed_delivery_seconds": 41340,
+      "destination_x": 14089027.78761589,
+      "destination_y": 5438477.498307683,
+      "road_node_id": 54513,
+      "snap_distance_m": 207.82781046883122
+    },
+    {
+      "order_id": 1765474,
+      "courier_id": 487,
+      "release_seconds": 30780,
+      "observed_delivery_seconds": 43560,
+      "destination_x": 14085202.84991223,
+      "destination_y": 5435247.039351918,
+      "road_node_id": 43180,
+      "snap_distance_m": 73.89600429716035
+    },
+    {
+      "order_id": 2237432,
+      "courier_id": 4474,
+      "release_seconds": 30780,
+      "observed_delivery_seconds": 37920,
+      "destination_x": 14087609.577303184,
+      "destination_y": 5435251.666706467,
+      "road_node_id": 49812,
+      "snap_distance_m": 332.9339735907061
+    },
+    {
+      "order_id": 2568135,
+      "courier_id": 75,
+      "release_seconds": 30780,
+      "observed_delivery_seconds": 42480,
+      "destination_x": 14089309.425927596,
+      "destination_y": 5439178.043360855,
+      "road_node_id": 54683,
+      "snap_distance_m": 144.24676138609448
+    },
+    {
+      "order_id": 2770085,
+      "courier_id": 4474,
+      "release_seconds": 30780,
+      "observed_delivery_seconds": 35640,
+      "destination_x": 14088330.927603524,
+      "destination_y": 5435897.976720703,
+      "road_node_id": 51031,
+      "snap_distance_m": 265.17451155535946
+    },
+    {
+      "order_id": 3586937,
+      "courier_id": 75,
+      "release_seconds": 30780,
+      "observed_delivery_seconds": 40020,
+      "destination_x": 14089467.499604521,
+      "destination_y": 5438148.846854177,
+      "road_node_id": 55493,
+      "snap_distance_m": 173.21895303231105
+    },
+    {
+      "order_id": 876750,
+      "courier_id": 4474,
+      "release_seconds": 30840,
+      "observed_delivery_seconds": 39300,
+      "destination_x": 14087031.829145964,
+      "destination_y": 5436254.314995008,
+      "road_node_id": 48559,
+      "snap_distance_m": 158.7256961494582
+    },
+    {
+      "order_id": 694367,
+      "courier_id": 4474,
+      "release_seconds": 30900,
+      "observed_delivery_seconds": 47340,
+      "destination_x": 14087121.997933507,
+      "destination_y": 5436692.429424627,
+      "road_node_id": 48054,
+      "snap_distance_m": 153.73522504791205
+    },
+    {
+      "order_id": 1176708,
+      "courier_id": 75,
+      "release_seconds": 30900,
+      "observed_delivery_seconds": 38880,
+      "destination_x": 14090152.1144729,
+      "destination_y": 5438843.194694512,
+      "road_node_id": 56887,
+      "snap_distance_m": 34.95357852220109
+    },
+    {
+      "order_id": 4284287,
+      "courier_id": 75,
+      "release_seconds": 30900,
+      "observed_delivery_seconds": 39540,
+      "destination_x": 14089809.250441257,
+      "destination_y": 5439042.2507292135,
+      "road_node_id": 56054,
+      "snap_distance_m": 173.41020040035573
+    },
+    {
+      "order_id": 870297,
+      "courier_id": 4474,
+      "release_seconds": 30960,
+      "observed_delivery_seconds": 48420,
+      "destination_x": 14086763.549173154,
+      "destination_y": 5437142.906830159,
+      "road_node_id": 47189,
+      "snap_distance_m": 15.010560084547862
+    },
+    {
+      "order_id": 3423467,
+      "courier_id": 4474,
+      "release_seconds": 30960,
+      "observed_delivery_seconds": 49980,
+      "destination_x": 14086662.248436531,
+      "destination_y": 5437129.021923578,
+      "road_node_id": 46755,
+      "snap_distance_m": 80.94083439572779
+    },
+    {
+      "order_id": 3926053,
+      "courier_id": 4474,
+      "release_seconds": 30960,
+      "observed_delivery_seconds": 47700,
+      "destination_x": 14087017.357612161,
+      "destination_y": 5437124.3936260315,
+      "road_node_id": 48268,
+      "snap_distance_m": 47.56334170801282
+    },
+    {
+      "order_id": 150762,
+      "courier_id": 487,
+      "release_seconds": 31020,
+      "observed_delivery_seconds": 45000,
+      "destination_x": 14084970.192176474,
+      "destination_y": 5435202.308377771,
+      "road_node_id": 42927,
+      "snap_distance_m": 192.7330052109265
+    },
+    {
+      "order_id": 1157454,
+      "courier_id": 4474,
+      "release_seconds": 31020,
+      "observed_delivery_seconds": 46500,
+      "destination_x": 14087365.787618345,
+      "destination_y": 5437283.299838948,
+      "road_node_id": 49265,
+      "snap_distance_m": 92.64399432369798
+    },
+    {
+      "order_id": 2063455,
+      "courier_id": 4474,
+      "release_seconds": 31020,
+      "observed_delivery_seconds": 45900,
+      "destination_x": 14087360.221643806,
+      "destination_y": 5437183.018900057,
+      "road_node_id": 49211,
+      "snap_distance_m": 30.926400259252002
+    },
+    {
+      "order_id": 4359389,
+      "courier_id": 4474,
+      "release_seconds": 31020,
+      "observed_delivery_seconds": 49140,
+      "destination_x": 14086825.888088,
+      "destination_y": 5436818.931129231,
+      "road_node_id": 47472,
+      "snap_distance_m": 27.560712144447553
+    },
+    {
+      "order_id": 1084390,
+      "courier_id": 4474,
+      "release_seconds": 31080,
+      "observed_delivery_seconds": 45000,
+      "destination_x": 14087493.80503276,
+      "destination_y": 5437110.508747355,
+      "road_node_id": 49211,
+      "snap_distance_m": 128.38937018902564
+    },
+    {
+      "order_id": 1547132,
+      "courier_id": 4474,
+      "release_seconds": 31080,
+      "observed_delivery_seconds": 44340,
+      "destination_x": 14087676.368997658,
+      "destination_y": 5437062.683214321,
+      "road_node_id": 50055,
+      "snap_distance_m": 143.19367393694301
+    },
+    {
+      "order_id": 2430739,
+      "courier_id": 487,
+      "release_seconds": 31080,
+      "observed_delivery_seconds": 41880,
+      "destination_x": 14085662.59940921,
+      "destination_y": 5435236.2422003485,
+      "road_node_id": 43592,
+      "snap_distance_m": 397.8417342639591
+    },
+    {
+      "order_id": 2416772,
+      "courier_id": 487,
+      "release_seconds": 31320,
+      "observed_delivery_seconds": 41040,
+      "destination_x": 14085628.090367062,
+      "destination_y": 5435500.0048094,
+      "road_node_id": 43180,
+      "snap_distance_m": 503.6191380800886
+    },
+    {
+      "order_id": 617220,
+      "courier_id": 75,
+      "release_seconds": 31380,
+      "observed_delivery_seconds": 38520,
+      "destination_x": 14090637.46745276,
+      "destination_y": 5437886.551291233,
+      "road_node_id": 58163,
+      "snap_distance_m": 59.71318592763109
+    },
+    {
+      "order_id": 729538,
+      "courier_id": 75,
+      "release_seconds": 31380,
+      "observed_delivery_seconds": 37800,
+      "destination_x": 14090707.59873196,
+      "destination_y": 5438406.520944657,
+      "road_node_id": 58025,
+      "snap_distance_m": 118.33961971298082
+    },
+    {
+      "order_id": 984243,
+      "courier_id": 75,
+      "release_seconds": 31380,
+      "observed_delivery_seconds": 36960,
+      "destination_x": 14090192.189489584,
+      "destination_y": 5438034.67022055,
+      "road_node_id": 56962,
+      "snap_distance_m": 43.939883063918714
+    },
+    {
+      "order_id": 3319137,
+      "courier_id": 487,
+      "release_seconds": 31380,
+      "observed_delivery_seconds": 39960,
+      "destination_x": 14086019.934974656,
+      "destination_y": 5435459.900066314,
+      "road_node_id": 45923,
+      "snap_distance_m": 244.39691627302537
+    },
+    {
+      "order_id": 200984,
+      "courier_id": 75,
+      "release_seconds": 31440,
+      "observed_delivery_seconds": 36420,
+      "destination_x": 14089770.28861948,
+      "destination_y": 5437954.438838184,
+      "road_node_id": 56013,
+      "snap_distance_m": 67.83347144858145
+    },
+    {
+      "order_id": 244582,
+      "courier_id": 75,
+      "release_seconds": 31440,
+      "observed_delivery_seconds": 33480,
+      "destination_x": 14089318.33148686,
+      "destination_y": 5437187.647227058,
+      "road_node_id": 55222,
+      "snap_distance_m": 99.26134687943757
+    },
+    {
+      "order_id": 3174577,
+      "courier_id": 75,
+      "release_seconds": 31440,
+      "observed_delivery_seconds": 32940,
+      "destination_x": 14088928.713269083,
+      "destination_y": 5437098.166650546,
+      "road_node_id": 54237,
+      "snap_distance_m": 114.02091105756087
+    },
+    {
+      "order_id": 4289733,
+      "courier_id": 75,
+      "release_seconds": 31440,
+      "observed_delivery_seconds": 35880,
+      "destination_x": 14089937.267855668,
+      "destination_y": 5437718.377477547,
+      "road_node_id": 56694,
+      "snap_distance_m": 197.6725475853661
+    },
+    {
+      "order_id": 1609427,
+      "courier_id": 487,
+      "release_seconds": 31620,
+      "observed_delivery_seconds": 39300,
+      "destination_x": 14085917.521043126,
+      "destination_y": 5435577.129805959,
+      "road_node_id": 45740,
+      "snap_distance_m": 266.2035029838656
+    },
+    {
+      "order_id": 4401433,
+      "courier_id": 487,
+      "release_seconds": 31860,
+      "observed_delivery_seconds": 37440,
+      "destination_x": 14087746.50027686,
+      "destination_y": 5432691.552198035,
+      "road_node_id": 49926,
+      "snap_distance_m": 110.68268463950248
+    },
+    {
+      "order_id": 1349426,
+      "courier_id": 487,
+      "release_seconds": 32100,
+      "observed_delivery_seconds": 36240,
+      "destination_x": 14087919.045487588,
+      "destination_y": 5433035.4298465755,
+      "road_node_id": 49926,
+      "snap_distance_m": 457.09983882504025
+    },
+    {
+      "order_id": 790013,
+      "courier_id": 487,
+      "release_seconds": 32400,
+      "observed_delivery_seconds": 34740,
+      "destination_x": 14086538.68380175,
+      "destination_y": 5433436.379628483,
+      "road_node_id": 46476,
+      "snap_distance_m": 57.11308718554675
+    },
+    {
+      "order_id": 52913,
+      "courier_id": 1103,
+      "release_seconds": 32700,
+      "observed_delivery_seconds": 37440,
+      "destination_x": 14090192.189489584,
+      "destination_y": 5439318.467392469,
+      "road_node_id": 56801,
+      "snap_distance_m": 410.5734882795299
+    },
+    {
+      "order_id": 112832,
+      "courier_id": 1103,
+      "release_seconds": 33180,
+      "observed_delivery_seconds": 49260,
+      "destination_x": 14090346.923581788,
+      "destination_y": 5438622.540706872,
+      "road_node_id": 57490,
+      "snap_distance_m": 50.88983026949502
+    },
+    {
+      "order_id": 2855633,
+      "courier_id": 1103,
+      "release_seconds": 33180,
+      "observed_delivery_seconds": 45360,
+      "destination_x": 14093586.320763873,
+      "destination_y": 5438852.453019338,
+      "road_node_id": 64330,
+      "snap_distance_m": 157.2613614811348
+    },
+    {
+      "order_id": 4062028,
+      "courier_id": 1103,
+      "release_seconds": 33180,
+      "observed_delivery_seconds": 45900,
+      "destination_x": 14092976.289954327,
+      "destination_y": 5438667.288291046,
+      "road_node_id": 63438,
+      "snap_distance_m": 109.60607075122289
+    },
+    {
+      "order_id": 4498178,
+      "courier_id": 1103,
+      "release_seconds": 33180,
+      "observed_delivery_seconds": 44520,
+      "destination_x": 14093309.135231797,
+      "destination_y": 5439083.914164653,
+      "road_node_id": 64330,
+      "snap_distance_m": 250.17837005744624
+    },
+    {
+      "order_id": 1278602,
+      "courier_id": 1103,
+      "release_seconds": 33420,
+      "observed_delivery_seconds": 41700,
+      "destination_x": 14092258.279238708,
+      "destination_y": 5439374.020347673,
+      "road_node_id": 61797,
+      "snap_distance_m": 101.25473097800108
+    },
+    {
+      "order_id": 4016991,
+      "courier_id": 1103,
+      "release_seconds": 33420,
+      "observed_delivery_seconds": 41400,
+      "destination_x": 14092558.841863852,
+      "destination_y": 5439520.620032813,
+      "road_node_id": 62392,
+      "snap_distance_m": 15.124960083136063
+    },
+    {
+      "order_id": 2168143,
+      "courier_id": 1103,
+      "release_seconds": 33540,
+      "observed_delivery_seconds": 39000,
+      "destination_x": 14090179.9443456,
+      "destination_y": 5439278.346022103,
+      "road_node_id": 56801,
+      "snap_distance_m": 368.6282464968638
+    },
+    {
+      "order_id": 2665414,
+      "courier_id": 1103,
+      "release_seconds": 33540,
+      "observed_delivery_seconds": 39660,
+      "destination_x": 14089181.408513183,
+      "destination_y": 5439469.695667144,
+      "road_node_id": 54514,
+      "snap_distance_m": 201.77792167632046
+    },
+    {
+      "order_id": 3851630,
+      "courier_id": 1103,
+      "release_seconds": 33540,
+      "observed_delivery_seconds": 38640,
+      "destination_x": 14089724.647628255,
+      "destination_y": 5439355.502658702,
+      "road_node_id": 56054,
+      "snap_distance_m": 461.8184176588202
+    },
+    {
+      "order_id": 597009,
+      "courier_id": 1103,
+      "release_seconds": 33840,
+      "observed_delivery_seconds": 34800,
+      "destination_x": 14090661.957740735,
+      "destination_y": 5438661.116197548,
+      "road_node_id": 58098,
+      "snap_distance_m": 19.029412781822636
+    },
+    {
+      "order_id": 2592482,
+      "courier_id": 1103,
+      "release_seconds": 33840,
+      "observed_delivery_seconds": 38280,
+      "destination_x": 14090404.809717003,
+      "destination_y": 5438943.493709153,
+      "road_node_id": 57412,
+      "snap_distance_m": 130.46190169751068
+    },
+    {
+      "order_id": 2745644,
+      "courier_id": 1103,
+      "release_seconds": 33840,
+      "observed_delivery_seconds": 48840,
+      "destination_x": 14090745.447358828,
+      "destination_y": 5438727.466419432,
+      "road_node_id": 58255,
+      "snap_distance_m": 22.142136530436595
+    },
+    {
+      "order_id": 2878991,
+      "courier_id": 1103,
+      "release_seconds": 33840,
+      "observed_delivery_seconds": 35460,
+      "destination_x": 14090650.825791653,
+      "destination_y": 5439133.293295158,
+      "road_node_id": 58067,
+      "snap_distance_m": 229.49335274913494
+    },
+    {
+      "order_id": 3380749,
+      "courier_id": 1103,
+      "release_seconds": 33840,
+      "observed_delivery_seconds": 36420,
+      "destination_x": 14090764.371672265,
+      "destination_y": 5439070.026331898,
+      "road_node_id": 58129,
+      "snap_distance_m": 187.84270978913196
+    },
+    {
+      "order_id": 3575740,
+      "courier_id": 1103,
+      "release_seconds": 33840,
+      "observed_delivery_seconds": 36900,
+      "destination_x": 14090669.75010509,
+      "destination_y": 5438816.9628247125,
+      "road_node_id": 58076,
+      "snap_distance_m": 14.734714641631452
+    },
+    {
+      "order_id": 3607040,
+      "courier_id": 1103,
+      "release_seconds": 33840,
+      "observed_delivery_seconds": 40680,
+      "destination_x": 14091902.05686817,
+      "destination_y": 5439238.224826519,
+      "road_node_id": 61379,
+      "snap_distance_m": 154.7676968947767
+    },
+    {
+      "order_id": 3179864,
+      "courier_id": 1103,
+      "release_seconds": 47700,
+      "observed_delivery_seconds": 51180,
+      "destination_x": 14091909.849232528,
+      "destination_y": 5439238.224826519,
+      "road_node_id": 61379,
+      "snap_distance_m": 147.83882487113075
+    },
+    {
+      "order_id": 753409,
+      "courier_id": 1103,
+      "release_seconds": 47820,
+      "observed_delivery_seconds": 68520,
+      "destination_x": 14089264.89813128,
+      "destination_y": 5439508.274706186,
+      "road_node_id": 54676,
+      "snap_distance_m": 266.93068307713025
+    },
+    {
+      "order_id": 1627720,
+      "courier_id": 1103,
+      "release_seconds": 47820,
+      "observed_delivery_seconds": 50580,
+      "destination_x": 14092659.029405566,
+      "destination_y": 5439548.397078227,
+      "road_node_id": 62437,
+      "snap_distance_m": 88.4269785576456
+    },
+    {
+      "order_id": 2402961,
+      "courier_id": 1103,
+      "release_seconds": 47820,
+      "observed_delivery_seconds": 52500,
+      "destination_x": 14089917.230347326,
+      "destination_y": 5439338.528143191,
+      "road_node_id": 56801,
+      "snap_distance_m": 443.8371638312679
+    },
+    {
+      "order_id": 485565,
+      "courier_id": 75,
+      "release_seconds": 49200,
+      "observed_delivery_seconds": 64500,
+      "destination_x": 14088110.51501175,
+      "destination_y": 5439647.16058487,
+      "road_node_id": 51112,
+      "snap_distance_m": 196.5454567904922
+    },
+    {
+      "order_id": 2936422,
+      "courier_id": 75,
+      "release_seconds": 49200,
+      "observed_delivery_seconds": 64920,
+      "destination_x": 14088545.774220755,
+      "destination_y": 5439549.940249871,
+      "road_node_id": 52442,
+      "snap_distance_m": 30.79194450918891
+    },
+    {
+      "order_id": 4105475,
+      "courier_id": 75,
+      "release_seconds": 49200,
+      "observed_delivery_seconds": 64200,
+      "destination_x": 14087313.467457673,
+      "destination_y": 5439071.569423391,
+      "road_node_id": 48917,
+      "snap_distance_m": 83.60850285425977
+    },
+    {
+      "order_id": 36332,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 60660,
+      "destination_x": 14087833.32947968,
+      "destination_y": 5439262.91477235,
+      "road_node_id": 50746,
+      "snap_distance_m": 153.45223459917287
+    },
+    {
+      "order_id": 245887,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 60180,
+      "destination_x": 14087998.082326053,
+      "destination_y": 5439270.630393995,
+      "road_node_id": 50746,
+      "snap_distance_m": 82.51079473113471
+    },
+    {
+      "order_id": 529593,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 62580,
+      "destination_x": 14087235.543814117,
+      "destination_y": 5438685.804596367,
+      "road_node_id": 48212,
+      "snap_distance_m": 206.97669614017892
+    },
+    {
+      "order_id": 550052,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 58020,
+      "destination_x": 14088937.618828347,
+      "destination_y": 5438534.589192236,
+      "road_node_id": 53637,
+      "snap_distance_m": 183.32252680893964
+    },
+    {
+      "order_id": 634829,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 61020,
+      "destination_x": 14087927.951046854,
+      "destination_y": 5439139.4657050865,
+      "road_node_id": 50746,
+      "snap_distance_m": 68.09625974831542
+    },
+    {
+      "order_id": 1215125,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 55260,
+      "destination_x": 14089990.701211251,
+      "destination_y": 5438867.883581392,
+      "road_node_id": 56607,
+      "snap_distance_m": 20.087411346785075
+    },
+    {
+      "order_id": 2074670,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 54180,
+      "destination_x": 14090024.097058488,
+      "destination_y": 5438283.083355146,
+      "road_node_id": 56968,
+      "snap_distance_m": 151.12543949407825
+    },
+    {
+      "order_id": 3402309,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 61620,
+      "destination_x": 14087845.574623663,
+      "destination_y": 5439252.112912903,
+      "road_node_id": 50746,
+      "snap_distance_m": 137.6915697094647
+    },
+    {
+      "order_id": 4439105,
+      "courier_id": 75,
+      "release_seconds": 49260,
+      "observed_delivery_seconds": 54720,
+      "destination_x": 14090386.998598473,
+      "destination_y": 5437872.66526372,
+      "road_node_id": 57381,
+      "snap_distance_m": 47.55093870137408
+    },
+    {
+      "order_id": 118488,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 50340,
+      "destination_x": 14089506.4614263,
+      "destination_y": 5436531.9907368375,
+      "road_node_id": 54446,
+      "snap_distance_m": 415.9277427046373
+    },
+    {
+      "order_id": 453984,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 53340,
+      "destination_x": 14090004.059550146,
+      "destination_y": 5437840.264614258,
+      "road_node_id": 56694,
+      "snap_distance_m": 59.497432988060126
+    },
+    {
+      "order_id": 605678,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 59580,
+      "destination_x": 14087978.04481771,
+      "destination_y": 5438651.858065051,
+      "road_node_id": 50681,
+      "snap_distance_m": 236.6182569592278
+    },
+    {
+      "order_id": 861470,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 58380,
+      "destination_x": 14088356.531086406,
+      "destination_y": 5438371.032468247,
+      "road_node_id": 51844,
+      "snap_distance_m": 105.6097871402744
+    },
+    {
+      "order_id": 1243369,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 56820,
+      "destination_x": 14089178.06892846,
+      "destination_y": 5438543.847206862,
+      "road_node_id": 54513,
+      "snap_distance_m": 133.72519469985895
+    },
+    {
+      "order_id": 1363804,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 58920,
+      "destination_x": 14088163.948367333,
+      "destination_y": 5438298.512963373,
+      "road_node_id": 51303,
+      "snap_distance_m": 165.9566859502028
+    },
+    {
+      "order_id": 2053908,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 56400,
+      "destination_x": 14089524.272544827,
+      "destination_y": 5438321.65742417,
+      "road_node_id": 55827,
+      "snap_distance_m": 125.9032100467481
+    },
+    {
+      "order_id": 2633394,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 62100,
+      "destination_x": 14087646.312735142,
+      "destination_y": 5438002.269001243,
+      "road_node_id": 49627,
+      "snap_distance_m": 116.26501298638108
+    },
+    {
+      "order_id": 3020010,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 50760,
+      "destination_x": 14088928.713269083,
+      "destination_y": 5437107.423221601,
+      "road_node_id": 54237,
+      "snap_distance_m": 108.13802156323707
+    },
+    {
+      "order_id": 3836760,
+      "courier_id": 75,
+      "release_seconds": 49320,
+      "observed_delivery_seconds": 57540,
+      "destination_x": 14089122.409183063,
+      "destination_y": 5439333.8987353,
+      "road_node_id": 54514,
+      "snap_distance_m": 56.33236185952139
+    },
+    {
+      "order_id": 2057939,
+      "courier_id": 1103,
+      "release_seconds": 49800,
+      "observed_delivery_seconds": 49800,
+      "destination_x": 14090660.844545826,
+      "destination_y": 5439153.353642548,
+      "road_node_id": 58067,
+      "snap_distance_m": 249.27711344808807
+    },
+    {
+      "order_id": 190651,
+      "courier_id": 487,
+      "release_seconds": 51480,
+      "observed_delivery_seconds": 64500,
+      "destination_x": 14085392.09304658,
+      "destination_y": 5435132.898675364,
+      "road_node_id": 43592,
+      "snap_distance_m": 113.3866064337867
+    },
+    {
+      "order_id": 672162,
+      "courier_id": 487,
+      "release_seconds": 51480,
+      "observed_delivery_seconds": 59400,
+      "destination_x": 14090491.63891982,
+      "destination_y": 5431333.1296239,
+      "road_node_id": 57302,
+      "snap_distance_m": 168.94238529445155
+    },
+    {
+      "order_id": 891406,
+      "courier_id": 487,
+      "release_seconds": 51480,
+      "observed_delivery_seconds": 63660,
+      "destination_x": 14085928.652992204,
+      "destination_y": 5435587.927356994,
+      "road_node_id": 45740,
+      "snap_distance_m": 251.23521045266085
+    },
+    {
+      "order_id": 2259239,
+      "courier_id": 487,
+      "release_seconds": 51480,
+      "observed_delivery_seconds": 63300,
+      "destination_x": 14085788.390433805,
+      "destination_y": 5435914.944897449,
+      "road_node_id": 45376,
+      "snap_distance_m": 236.5828804838344
+    },
+    {
+      "order_id": 2455426,
+      "courier_id": 487,
+      "release_seconds": 51480,
+      "observed_delivery_seconds": 65280,
+      "destination_x": 14084558.310060538,
+      "destination_y": 5434648.587748218,
+      "road_node_id": 42201,
+      "snap_distance_m": 224.22435099016167
+    },
+    {
+      "order_id": 3379235,
+      "courier_id": 487,
+      "release_seconds": 51480,
+      "observed_delivery_seconds": 64860,
+      "destination_x": 14084608.403831394,
+      "destination_y": 5435234.699751155,
+      "road_node_id": 41487,
+      "snap_distance_m": 149.90366687224846
+    },
+    {
+      "order_id": 3814197,
+      "courier_id": 487,
+      "release_seconds": 51600,
+      "observed_delivery_seconds": 58800,
+      "destination_x": 14089007.750107545,
+      "destination_y": 5432235.124552142,
+      "road_node_id": 53764,
+      "snap_distance_m": 269.27787499807687
+    },
+    {
+      "order_id": 1789520,
+      "courier_id": 487,
+      "release_seconds": 51660,
+      "observed_delivery_seconds": 55740,
+      "destination_x": 14086555.381725369,
+      "destination_y": 5433427.126744585,
+      "road_node_id": 46679,
+      "snap_distance_m": 50.82904104311206
+    },
+    {
+      "order_id": 1680943,
+      "courier_id": 487,
+      "release_seconds": 51720,
+      "observed_delivery_seconds": 56460,
+      "destination_x": 14086635.531758742,
+      "destination_y": 5433212.77086803,
+      "road_node_id": 46887,
+      "snap_distance_m": 94.34277305241646
+    },
+    {
+      "order_id": 4205201,
+      "courier_id": 1103,
+      "release_seconds": 52020,
+      "observed_delivery_seconds": 54480,
+      "destination_x": 14089833.740729233,
+      "destination_y": 5439474.3251433,
+      "road_node_id": 56440,
+      "snap_distance_m": 387.06976259009474
+    },
+    {
+      "order_id": 1228233,
+      "courier_id": 487,
+      "release_seconds": 52260,
+      "observed_delivery_seconds": 62040,
+      "destination_x": 14092306.14661975,
+      "destination_y": 5431209.786749915,
+      "road_node_id": 61863,
+      "snap_distance_m": 63.488669266892536
+    },
+    {
+      "order_id": 3457663,
+      "courier_id": 487,
+      "release_seconds": 52680,
+      "observed_delivery_seconds": 73620,
+      "destination_x": 14090765.48486717,
+      "destination_y": 5432022.338306652,
+      "road_node_id": 58978,
+      "snap_distance_m": 462.47675560761655
+    },
+    {
+      "order_id": 543932,
+      "courier_id": 487,
+      "release_seconds": 52800,
+      "observed_delivery_seconds": 57180,
+      "destination_x": 14087913.47951305,
+      "destination_y": 5433033.887765699,
+      "road_node_id": 49926,
+      "snap_distance_m": 452.464438549997
+    },
+    {
+      "order_id": 794798,
+      "courier_id": 1103,
+      "release_seconds": 54600,
+      "observed_delivery_seconds": 62760,
+      "destination_x": 14089868.249771379,
+      "destination_y": 5436209.57913048,
+      "road_node_id": 56712,
+      "snap_distance_m": 174.86174267149812
+    },
+    {
+      "order_id": 834980,
+      "courier_id": 1103,
+      "release_seconds": 54600,
+      "observed_delivery_seconds": 63540,
+      "destination_x": 14089744.685136598,
+      "destination_y": 5436144.78964282,
+      "road_node_id": 56673,
+      "snap_distance_m": 271.7219605617942
+    },
+    {
+      "order_id": 2448542,
+      "courier_id": 1103,
+      "release_seconds": 54600,
+      "observed_delivery_seconds": 62400,
+      "destination_x": 14089618.894112002,
+      "destination_y": 5436005.95656058,
+      "road_node_id": 55509,
+      "snap_distance_m": 131.26148050711262
+    },
+    {
+      "order_id": 2666534,
+      "courier_id": 1103,
+      "release_seconds": 54600,
+      "observed_delivery_seconds": 63180,
+      "destination_x": 14089833.740729233,
+      "destination_y": 5436175.641722978,
+      "road_node_id": 56673,
+      "snap_distance_m": 197.09890992156653
+    },
+    {
+      "order_id": 105050,
+      "courier_id": 1103,
+      "release_seconds": 54660,
+      "observed_delivery_seconds": 57300,
+      "destination_x": 14089358.406503547,
+      "destination_y": 5435833.189424203,
+      "road_node_id": 55509,
+      "snap_distance_m": 192.10555779923263
+    },
+    {
+      "order_id": 268965,
+      "courier_id": 1103,
+      "release_seconds": 54660,
+      "observed_delivery_seconds": 64380,
+      "destination_x": 14090058.606100634,
+      "destination_y": 5436183.3547591595,
+      "road_node_id": 56757,
+      "snap_distance_m": 84.51866106776657
+    },
+    {
+      "order_id": 1737805,
+      "courier_id": 1103,
+      "release_seconds": 54660,
+      "observed_delivery_seconds": 56280,
+      "destination_x": 14089425.19819802,
+      "destination_y": 5436075.372840197,
+      "road_node_id": 55509,
+      "snap_distance_m": 124.28988735118452
+    },
+    {
+      "order_id": 2478236,
+      "courier_id": 1103,
+      "release_seconds": 54660,
+      "observed_delivery_seconds": 65100,
+      "destination_x": 14089906.098398248,
+      "destination_y": 5436229.633111851,
+      "road_node_id": 56712,
+      "snap_distance_m": 132.53801663327405
+    },
+    {
+      "order_id": 3844989,
+      "courier_id": 1103,
+      "release_seconds": 54660,
+      "observed_delivery_seconds": 65820,
+      "destination_x": 14089735.779577335,
+      "destination_y": 5436440.973877225,
+      "road_node_id": 56745,
+      "snap_distance_m": 315.5884614285626
+    },
+    {
+      "order_id": 464309,
+      "courier_id": 1103,
+      "release_seconds": 54720,
+      "observed_delivery_seconds": 56880,
+      "destination_x": 14087340.184135463,
+      "destination_y": 5435501.547303003,
+      "road_node_id": 49288,
+      "snap_distance_m": 135.50287940826126
+    },
+    {
+      "order_id": 788854,
+      "courier_id": 1103,
+      "release_seconds": 54720,
+      "observed_delivery_seconds": 57900,
+      "destination_x": 14089389.575960968,
+      "destination_y": 5435698.988616348,
+      "road_node_id": 55509,
+      "snap_distance_m": 290.64520334972946
+    },
+    {
+      "order_id": 3422760,
+      "courier_id": 1103,
+      "release_seconds": 54720,
+      "observed_delivery_seconds": 59340,
+      "destination_x": 14089719.081653716,
+      "destination_y": 5435231.614853545,
+      "road_node_id": 56468,
+      "snap_distance_m": 181.05960505323347
+    },
+    {
+      "order_id": 211380,
+      "courier_id": 1103,
+      "release_seconds": 54780,
+      "observed_delivery_seconds": 61020,
+      "destination_x": 14089792.552517641,
+      "destination_y": 5435473.782457627,
+      "road_node_id": 56521,
+      "snap_distance_m": 144.17449928573032
+    },
+    {
+      "order_id": 213030,
+      "courier_id": 1103,
+      "release_seconds": 54780,
+      "observed_delivery_seconds": 61320,
+      "destination_x": 14089793.665712547,
+      "destination_y": 5435544.737228771,
+      "road_node_id": 56521,
+      "snap_distance_m": 153.0448770156235
+    },
+    {
+      "order_id": 242382,
+      "courier_id": 1103,
+      "release_seconds": 54780,
+      "observed_delivery_seconds": 60540,
+      "destination_x": 14089803.684466718,
+      "destination_y": 5435557.077244748,
+      "road_node_id": 56521,
+      "snap_distance_m": 149.0408651784453
+    },
+    {
+      "order_id": 2417770,
+      "courier_id": 1103,
+      "release_seconds": 54780,
+      "observed_delivery_seconds": 59040,
+      "destination_x": 14089819.269195428,
+      "destination_y": 5435200.765934256,
+      "road_node_id": 56468,
+      "snap_distance_m": 86.7977750477526
+    },
+    {
+      "order_id": 3816381,
+      "courier_id": 1103,
+      "release_seconds": 54780,
+      "observed_delivery_seconds": 61680,
+      "destination_x": 14089804.797661625,
+      "destination_y": 5435552.449736822,
+      "road_node_id": 56521,
+      "snap_distance_m": 145.96592859194897
+    },
+    {
+      "order_id": 4363419,
+      "courier_id": 1103,
+      "release_seconds": 54780,
+      "observed_delivery_seconds": 60000,
+      "destination_x": 14089825.948364878,
+      "destination_y": 5435197.681048008,
+      "road_node_id": 56468,
+      "snap_distance_m": 81.86683260125983
+    },
+    {
+      "order_id": 2435579,
+      "courier_id": 4474,
+      "release_seconds": 57840,
+      "observed_delivery_seconds": 64020,
+      "destination_x": 14087024.036781609,
+      "destination_y": 5436235.8035764415,
+      "road_node_id": 48559,
+      "snap_distance_m": 176.57275893241555
+    },
+    {
+      "order_id": 2665871,
+      "courier_id": 4474,
+      "release_seconds": 57840,
+      "observed_delivery_seconds": 64380,
+      "destination_x": 14087441.484872084,
+      "destination_y": 5436911.494452633,
+      "road_node_id": 49205,
+      "snap_distance_m": 52.50941907071954
+    },
+    {
+      "order_id": 4053889,
+      "courier_id": 4474,
+      "release_seconds": 57840,
+      "observed_delivery_seconds": 66960,
+      "destination_x": 14086676.719970334,
+      "destination_y": 5437068.854236888,
+      "road_node_id": 47189,
+      "snap_distance_m": 99.21851869089114
+    },
+    {
+      "order_id": 4249310,
+      "courier_id": 4474,
+      "release_seconds": 57840,
+      "observed_delivery_seconds": 68160,
+      "destination_x": 14086900.472146831,
+      "destination_y": 5437269.414720761,
+      "road_node_id": 47740,
+      "snap_distance_m": 153.19347082330412
+    },
+    {
+      "order_id": 1416845,
+      "courier_id": 4474,
+      "release_seconds": 57900,
+      "observed_delivery_seconds": 60420,
+      "destination_x": 14088138.34488445,
+      "destination_y": 5435825.476681155,
+      "road_node_id": 50961,
+      "snap_distance_m": 79.63681795150352
+    },
+    {
+      "order_id": 1575883,
+      "courier_id": 4474,
+      "release_seconds": 57900,
+      "observed_delivery_seconds": 60060,
+      "destination_x": 14088687.14997406,
+      "destination_y": 5436039.893343051,
+      "road_node_id": 52405,
+      "snap_distance_m": 152.94766160535374
+    },
+    {
+      "order_id": 1656686,
+      "courier_id": 4474,
+      "release_seconds": 57900,
+      "observed_delivery_seconds": 64800,
+      "destination_x": 14087646.312735142,
+      "destination_y": 5437129.021923578,
+      "road_node_id": 50376,
+      "snap_distance_m": 172.9219843152672
+    },
+    {
+      "order_id": 1924181,
+      "courier_id": 4474,
+      "release_seconds": 57900,
+      "observed_delivery_seconds": 65700,
+      "destination_x": 14086678.94636015,
+      "destination_y": 5436957.776463098,
+      "road_node_id": 46743,
+      "snap_distance_m": 111.83563562653897
+    },
+    {
+      "order_id": 4029161,
+      "courier_id": 4474,
+      "release_seconds": 57900,
+      "observed_delivery_seconds": 60900,
+      "destination_x": 14088163.948367333,
+      "destination_y": 5435219.275273435,
+      "road_node_id": 50819,
+      "snap_distance_m": 163.57782112179376
+    },
+    {
+      "order_id": 4315698,
+      "courier_id": 4474,
+      "release_seconds": 57900,
+      "observed_delivery_seconds": 70020,
+      "destination_x": 14088514.60476333,
+      "destination_y": 5437192.27555638,
+      "road_node_id": 52924,
+      "snap_distance_m": 160.20044441652627
+    },
+    {
+      "order_id": 1001018,
+      "courier_id": 4474,
+      "release_seconds": 57960,
+      "observed_delivery_seconds": 70920,
+      "destination_x": 14088100.496257579,
+      "destination_y": 5437343.468926276,
+      "road_node_id": 50875,
+      "snap_distance_m": 92.70215513332695
+    },
+    {
+      "order_id": 1404217,
+      "courier_id": 4474,
+      "release_seconds": 57960,
+      "observed_delivery_seconds": 74280,
+      "destination_x": 14088198.457409477,
+      "destination_y": 5437277.128672729,
+      "road_node_id": 51366,
+      "snap_distance_m": 16.461068072691223
+    },
+    {
+      "order_id": 2692569,
+      "courier_id": 4474,
+      "release_seconds": 57960,
+      "observed_delivery_seconds": 72300,
+      "destination_x": 14088196.231019665,
+      "destination_y": 5436558.216100547,
+      "road_node_id": 51186,
+      "snap_distance_m": 51.204431558658456
+    },
+    {
+      "order_id": 2902993,
+      "courier_id": 4474,
+      "release_seconds": 62880,
+      "observed_delivery_seconds": 63180,
+      "destination_x": 14087687.500946738,
+      "destination_y": 5435251.666706467,
+      "road_node_id": 50708,
+      "snap_distance_m": 276.04481265773734
+    },
+    {
+      "order_id": 3130589,
+      "courier_id": 75,
+      "release_seconds": 66660,
+      "observed_delivery_seconds": 70560,
+      "destination_x": 14089679.00663703,
+      "destination_y": 5435129.813811838,
+      "road_node_id": 56442,
+      "snap_distance_m": 209.20235760792585
+    },
+    {
+      "order_id": 3735049,
+      "courier_id": 75,
+      "release_seconds": 66660,
+      "observed_delivery_seconds": 67800,
+      "destination_x": 14090196.642269218,
+      "destination_y": 5437661.291651631,
+      "road_node_id": 57003,
+      "snap_distance_m": 32.23553636130846
+    },
+    {
+      "order_id": 4228699,
+      "courier_id": 75,
+      "release_seconds": 66660,
+      "observed_delivery_seconds": 68340,
+      "destination_x": 14090510.563233254,
+      "destination_y": 5437443.751611825,
+      "road_node_id": 57369,
+      "snap_distance_m": 159.39302508265334
+    }
+  ],
+  "release_batches": [
+    {
+      "decision_time": 29700,
+      "released_order_ids": [
+        304998,
+        1217275,
+        4093653
+      ]
+    },
+    {
+      "decision_time": 30000,
+      "released_order_ids": [
+        3119913,
+        1190008
+      ]
+    },
+    {
+      "decision_time": 30300,
+      "released_order_ids": [
+        3693995,
+        159183,
+        217407,
+        2526051
+      ]
+    },
+    {
+      "decision_time": 30600,
+      "released_order_ids": [
+        1872610,
+        3274672,
+        3330705,
+        939350,
+        2127410,
+        2183772,
+        3020421,
+        1316974,
+        1519340,
+        1765474,
+        2237432,
+        2568135,
+        2770085,
+        3586937,
+        876750
+      ]
+    },
+    {
+      "decision_time": 30900,
+      "released_order_ids": [
+        694367,
+        1176708,
+        4284287,
+        870297,
+        3423467,
+        3926053,
+        150762,
+        1157454,
+        2063455,
+        4359389,
+        1084390,
+        1547132,
+        2430739
+      ]
+    },
+    {
+      "decision_time": 31200,
+      "released_order_ids": [
+        2416772,
+        617220,
+        729538,
+        984243,
+        3319137,
+        200984,
+        244582,
+        3174577,
+        4289733
+      ]
+    },
+    {
+      "decision_time": 31500,
+      "released_order_ids": [
+        1609427
+      ]
+    },
+    {
+      "decision_time": 31800,
+      "released_order_ids": [
+        4401433
+      ]
+    },
+    {
+      "decision_time": 32100,
+      "released_order_ids": [
+        1349426
+      ]
+    },
+    {
+      "decision_time": 32400,
+      "released_order_ids": [
+        790013
+      ]
+    },
+    {
+      "decision_time": 32700,
+      "released_order_ids": [
+        52913
+      ]
+    },
+    {
+      "decision_time": 33000,
+      "released_order_ids": [
+        112832,
+        2855633,
+        4062028,
+        4498178
+      ]
+    },
+    {
+      "decision_time": 33300,
+      "released_order_ids": [
+        1278602,
+        4016991,
+        2168143,
+        2665414,
+        3851630
+      ]
+    },
+    {
+      "decision_time": 33600,
+      "released_order_ids": [
+        597009,
+        2592482,
+        2745644,
+        2878991,
+        3380749,
+        3575740,
+        3607040
+      ]
+    },
+    {
+      "decision_time": 47700,
+      "released_order_ids": [
+        3179864,
+        753409,
+        1627720,
+        2402961
+      ]
+    },
+    {
+      "decision_time": 49200,
+      "released_order_ids": [
+        485565,
+        2936422,
+        4105475,
+        36332,
+        245887,
+        529593,
+        550052,
+        634829,
+        1215125,
+        2074670,
+        3402309,
+        4439105,
+        118488,
+        453984,
+        605678,
+        861470,
+        1243369,
+        1363804,
+        2053908,
+        2633394,
+        3020010,
+        3836760
+      ]
+    },
+    {
+      "decision_time": 49800,
+      "released_order_ids": [
+        2057939
+      ]
+    },
+    {
+      "decision_time": 51300,
+      "released_order_ids": [
+        190651,
+        672162,
+        891406,
+        2259239,
+        2455426,
+        3379235
+      ]
+    },
+    {
+      "decision_time": 51600,
+      "released_order_ids": [
+        3814197,
+        1789520,
+        1680943
+      ]
+    },
+    {
+      "decision_time": 51900,
+      "released_order_ids": [
+        4205201
+      ]
+    },
+    {
+      "decision_time": 52200,
+      "released_order_ids": [
+        1228233
+      ]
+    },
+    {
+      "decision_time": 52500,
+      "released_order_ids": [
+        3457663
+      ]
+    },
+    {
+      "decision_time": 52800,
+      "released_order_ids": [
+        543932
+      ]
+    },
+    {
+      "decision_time": 54600,
+      "released_order_ids": [
+        794798,
+        834980,
+        2448542,
+        2666534,
+        105050,
+        268965,
+        1737805,
+        2478236,
+        3844989,
+        464309,
+        788854,
+        3422760,
+        211380,
+        213030,
+        242382,
+        2417770,
+        3816381,
+        4363419
+      ]
+    },
+    {
+      "decision_time": 57600,
+      "released_order_ids": [
+        2435579,
+        2665871,
+        4053889,
+        4249310
+      ]
+    },
+    {
+      "decision_time": 57900,
+      "released_order_ids": [
+        1416845,
+        1575883,
+        1656686,
+        1924181,
+        4029161,
+        4315698,
+        1001018,
+        1404217,
+        2692569
+      ]
+    },
+    {
+      "decision_time": 62700,
+      "released_order_ids": [
+        2902993
+      ]
+    },
+    {
+      "decision_time": 66600,
+      "released_order_ids": [
+        3130589,
+        3735049,
+        4228699
+      ]
+    }
+  ]
+}

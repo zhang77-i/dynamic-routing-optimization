@@ -1,4 +1,10 @@
-numpy
-pandas
-ortools
-matplotlib
+duckdb==1.4.3
+networkx>=3.4
+numpy>=2.0
+ortools==9.15.6755
+pandas>=2.2
+pyarrow>=18.0
+PyYAML>=6.0
+scipy>=1.14
+tabulate>=0.9
+pytest>=8.0

@@ -1,72 +1,63 @@
-# Dynamic Routing Optimization
+# Learning-Augmented Dynamic Routing Optimization
 
-An intelligent routing framework combining Operations Research and AI methods for dynamic logistics decision making.
+A dynamic vehicle routing optimization framework combining graph representation, operations research, and heuristic search for intelligent logistics decision making.
 
-## Overview
-
-This project focuses on dynamic vehicle routing problems where customer requests arrive continuously and routing decisions need periodic updates.
-
-Pipeline:
+## Architecture
 
 ```
 Dynamic Orders
       |
       v
-Initial Solution
+Graph Representation
       |
       v
-ALNS Optimization
+VRP Modeling
       |
-      v
-Rolling Horizon Re-planning
-      |
-      v
-Routing Decision
+      +----------------+
+      |                |
+      v                v
+ CP-SAT Solver       ALNS
+      |                |
+      +----------------+
+              |
+              v
+ Rolling Horizon Re-optimization
 ```
 
-## Features
+## Key Features
 
-- Vehicle Routing Problem (VRP) modeling
+- Dynamic Vehicle Routing Problem modeling
 - Dynamic order insertion
-- Adaptive Large Neighborhood Search (ALNS)
-- Destroy and repair operators
-- Rolling Horizon optimization
+- Constraint-aware route optimization
+- Adaptive Large Neighborhood Search
+- Rolling horizon replanning
 
-## Structure
+## Engineering Goal
+
+Build practical routing decision systems where learning methods enhance state representation and optimization methods guarantee feasible solutions.
+
+## Project Structure
 
 ```
-dynamic-routing-optimization
-|
-├── vrp
-│   ├── model.py
-│   └── constraints.py
-|
-├── heuristic
-│   ├── alns.py
-│   ├── destroy.py
-│   └── repair.py
-|
-├── dynamic
-│   └── rolling_horizon.py
-|
-├── benchmark
-|
-└── demo
+src/
+├── graph/
+├── routing/
+├── heuristic/
+├── dynamic/
+└── evaluation/
 ```
 
 ## Core Algorithms
 
-### VRP
+### VRP Modeling
 
 Decision variable:
 
 $$x_{ijk}=1$$
 
-vehicle $k$ travels from node $i$ to node $j$.
+indicates vehicle $k$ travels from node $i$ to node $j$.
 
 ### ALNS
-
-Optimization process:
 
 ```
 Initial Solution
@@ -80,7 +71,7 @@ Acceptance Criterion
 
 ### Rolling Horizon
 
-The system periodically updates routing decisions according to newly released orders.
+The system periodically updates routing decisions when new requests arrive.
 
 ## Applications
 

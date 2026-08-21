@@ -21,6 +21,7 @@ from .optimization import (
     solve_cp_sat,
     validate_solution,
 )
+from .pyvrp_baseline import solve_pyvrp_static_baseline
 
 LOGGER = logging.getLogger(__name__)
 
@@ -252,6 +253,36 @@ def _run_instance(problem, config: ProjectConfig, solution_dir: Path) -> list[di
         )
 
     started = time.perf_counter()
+    pyvrp_result = solve_pyvrp_static_baseline(problem, config)
+    runtime = time.perf_counter() - started
+    rows.append(
+        _record(
+            problem.instance_id,
+            "pyvrp_static_distance",
+            problem.order_count,
+            problem.vehicle_count,
+            pyvrp_result.metrics,
+            runtime,
+        )
+    )
+    _write_solution(
+        solution_dir,
+        problem,
+        "pyvrp_static_distance",
+        pyvrp_result.routes,
+        {
+            "information_set": "all orders in the region-day instance",
+            "solver": f"PyVRP {pyvrp_result.pyvrp_version}",
+            "iterations": pyvrp_result.iterations,
+            "solver_cost": pyvrp_result.solver_cost,
+            "modelling_note": (
+                "Static multi-depot distance baseline; client-to-depot arcs "
+                "have zero cost to match the open-route convention"
+            ),
+        },
+    )
+
+    started = time.perf_counter()
     alns = ALNSSolver(problem, config).solve()
     runtime = time.perf_counter() - started
     alns_metrics = {
@@ -394,6 +425,7 @@ def run_optimization_experiments(config_path: str | Path) -> None:
 - 假设速度：{config.processing["assumed_speed_kph"]} km/h；
 - 单点服务时间：{config.processing["service_time_seconds"]} 秒；
 - CP-SAT 单实例总时间限制：{config.optimization["cp_sat_time_limit_seconds"]} 秒；
+- PyVRP 静态基线：{config.optimization["pyvrp_iterations"]} 次迭代；
 - 离线 ALNS：{config.optimization["alns_iterations"]} 次迭代；
 - 动态滚动 ALNS：每次重规划 {config.optimization["rolling_alns_iterations"]} 次迭代。
 
@@ -403,7 +435,8 @@ def run_optimization_experiments(config_path: str | Path) -> None:
 2. `dynamic_rolling_alns`：每个调度周期重建未服务订单池，使用 ALNS 规划，并冻结每名空闲骑手的下一站；
 3. `greedy_regret2_offline`：全量信息下的 Regret-2 构造基线；
 4. `ortools_cp_sat_decomposed`：OR-Tools CP-SAT 完成骑手分配，并对每名骑手的开放路径进行 CP-SAT 排序；
-5. `alns_offline`：Random/Worst/Shaw/Route-Segment Destroy，Greedy/Regret-2/Regret-3 Repair，自适应权重、模拟退火和 2-opt。
+5. `pyvrp_static_distance`：PyVRP 多起点静态距离基线，每名骑手对应一个车辆类型，以零成本返仓弧匹配开放路线口径；
+6. `alns_offline`：Random/Worst/Shaw/Route-Segment Destroy，Greedy/Regret-2/Regret-3 Repair，自适应权重、模拟退火和 2-opt。
 
 ## 聚合结果
 
@@ -423,6 +456,7 @@ def run_optimization_experiments(config_path: str | Path) -> None:
 - LaDe 不提供平台承诺送达时间，2 小时 SLA 是透明的压力测试假设，不是真实平台超时率；
 - 在线方法只能看到当时已释放订单，离线方法可看到实例内全部订单，两类结果用于不同目的，不能只依据距离直接判定公平优劣；
 - CP-SAT 使用“分配—单骑手路径”分解，以便在 48–188 单实例上稳定生成可行解；它不是对完整多骑手 VRP 最优性的证明。
+- PyVRP 基线优化整数化投影距离，不直接优化本项目的合成 SLA 迟到或负载均衡项，因此只作为外部静态求解器参照。
 """
     (config.root / "reports" / "optimization_report.md").write_text(
         report,
@@ -438,6 +472,7 @@ def run_optimization_experiments(config_path: str | Path) -> None:
         "rolling_alns_iterations": config.optimization[
             "rolling_alns_iterations"
         ],
+        "pyvrp_iterations": config.optimization["pyvrp_iterations"],
         "mean_alns_objective_improvement_vs_greedy": (
             alns_objective_improvement
         ),

@@ -10,6 +10,7 @@
 - 假设速度：20 km/h；
 - 单点服务时间：120 秒；
 - CP-SAT 单实例总时间限制：6 秒；
+- PyVRP 静态基线：250 次迭代；
 - 离线 ALNS：250 次迭代；
 - 动态滚动 ALNS：每次重规划 30 次迭代。
 
@@ -19,17 +20,19 @@
 2. `dynamic_rolling_alns`：每个调度周期重建未服务订单池，使用 ALNS 规划，并冻结每名空闲骑手的下一站；
 3. `greedy_regret2_offline`：全量信息下的 Regret-2 构造基线；
 4. `ortools_cp_sat_decomposed`：OR-Tools CP-SAT 完成骑手分配，并对每名骑手的开放路径进行 CP-SAT 排序；
-5. `alns_offline`：Random/Worst/Shaw/Route-Segment Destroy，Greedy/Regret-2/Regret-3 Repair，自适应权重、模拟退火和 2-opt。
+5. `pyvrp_static_distance`：PyVRP 多起点静态距离基线，每名骑手对应一个车辆类型，以零成本返仓弧匹配开放路线口径；
+6. `alns_offline`：Random/Worst/Shaw/Route-Segment Destroy，Greedy/Regret-2/Regret-3 Repair，自适应权重、模拟退火和 2-opt。
 
 ## 聚合结果
 
 | method | instances | mean_distance_km | mean_objective | mean_runtime_seconds | median_workload_std | mean_synthetic_late_rate | mean_total_lateness_minutes | mean_replans |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dynamic_rolling_alns | 12.0000 | 163.1760 | 167028.2182 | 0.5578 | 3.2150 | 0.0214 | 58.7551 | 47.3333 |
-| dynamic_online_greedy | 12.0000 | 211.6703 | 215714.4878 | 0.0030 | 3.1795 | 0.0255 | 61.8067 |  |
-| ortools_cp_sat_decomposed | 12.0000 | 101.7172 | 264680.9514 | 3.7689 | 0.4714 | 0.1054 | 2714.1699 |  |
-| alns_offline | 12.0000 | 50.7467 | 903894.0981 | 5.3954 | 10.6855 | 0.5034 | 14201.6515 |  |
-| greedy_regret2_offline | 12.0000 | 72.4189 | 1323190.5344 | 0.1777 | 13.6103 | 0.6059 | 20823.5073 |  |
+| dynamic_rolling_alns | 12.0000 | 163.1760 | 167028.2182 | 0.4888 | 3.2150 | 0.0214 | 58.7551 | 47.3333 |
+| dynamic_online_greedy | 12.0000 | 211.6703 | 215714.4878 | 0.0024 | 3.1795 | 0.0255 | 61.8067 |  |
+| ortools_cp_sat_decomposed | 12.0000 | 101.7394 | 259279.7518 | 3.7399 | 0.4714 | 0.1021 | 2623.4191 |  |
+| alns_offline | 12.0000 | 50.7467 | 903894.0981 | 3.6117 | 10.6855 | 0.5034 | 14201.6515 |  |
+| pyvrp_static_distance | 12.0000 | 44.9836 | 1098677.6165 | 0.1814 | 11.8884 | 0.5539 | 17542.2651 |  |
+| greedy_regret2_offline | 12.0000 | 72.4189 | 1323190.5344 | 0.1452 | 13.6103 | 0.6059 | 20823.5073 |  |
 
 ## 相对改进
 
@@ -45,3 +48,4 @@
 - LaDe 不提供平台承诺送达时间，2 小时 SLA 是透明的压力测试假设，不是真实平台超时率；
 - 在线方法只能看到当时已释放订单，离线方法可看到实例内全部订单，两类结果用于不同目的，不能只依据距离直接判定公平优劣；
 - CP-SAT 使用“分配—单骑手路径”分解，以便在 48–188 单实例上稳定生成可行解；它不是对完整多骑手 VRP 最优性的证明。
+- PyVRP 基线优化整数化投影距离，不直接优化本项目的合成 SLA 迟到或负载均衡项，因此只作为外部静态求解器参照。

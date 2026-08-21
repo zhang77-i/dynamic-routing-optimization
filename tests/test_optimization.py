@@ -10,6 +10,7 @@ from lade_routing.optimization import (
     solve_cp_sat,
     validate_solution,
 )
+from lade_routing.pyvrp_baseline import solve_pyvrp_static_baseline
 
 
 class Config:
@@ -89,6 +90,19 @@ def test_dynamic_rolling_alns_assigns_every_order_once() -> None:
     result = dynamic_rolling_alns(problem, Config())
     validate_solution(problem, result["routes"], enforce_capacity=False)
     assert result["replans"] >= 1
+
+
+def test_pyvrp_static_baseline_preserves_feasibility() -> None:
+    problem = small_problem()
+    result = solve_pyvrp_static_baseline(
+        problem,
+        Config(),
+        iterations=25,
+    )
+    validate_solution(problem, result.routes)
+    assert result.solver_cost >= 0
+    assert result.metrics.distance_m > 0
+    assert result.pyvrp_version == "0.14.0"
 
 
 def test_cpp_core_matches_python_route_operations() -> None:

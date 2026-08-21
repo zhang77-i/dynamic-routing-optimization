@@ -5,11 +5,13 @@
     "dynamic_online_greedy",
     "ortools_cp_sat_decomposed",
     "alns_offline",
+    "pyvrp_static_distance",
     "greedy_regret2_offline"
   ],
   "cp_sat_time_limit_seconds": 6,
   "alns_iterations": 250,
   "rolling_alns_iterations": 30,
+  "pyvrp_iterations": 250,
   "mean_alns_objective_improvement_vs_greedy": 0.19894497208554562,
   "mean_dynamic_rolling_objective_improvement_vs_greedy": 0.22045841172374483
 }

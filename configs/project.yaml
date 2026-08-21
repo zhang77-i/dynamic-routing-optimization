@@ -32,6 +32,7 @@ optimization:
   capacity_factor: 1.50
   cp_sat_time_limit_seconds: 6
   cp_sat_num_workers: 1
+  pyvrp_iterations: 250
   late_penalty_meters_per_second: 1.0
   workload_std_penalty_meters: 100.0
   alns_iterations: 250

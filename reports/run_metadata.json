@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-07-28T20:34:54+08:00",
+  "python": "3.13.9",
+  "duckdb": "1.4.3",
+  "pandas": "2.3.3",
+  "numpy": "2.3.5",
+  "orders": 31415,
+  "road_nodes": 274361,
+  "directed_edges": 538862,
+  "benchmark_instances": 12,
+  "baseline_routes": 1704,
+  "random_seed": 42
+}

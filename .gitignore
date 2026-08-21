@@ -1,0 +1,14 @@
+/data/raw/
+/data/interim/
+/data/processed/optimization_solutions/
+/data/processed/*.parquet
+*.dll
+*.so
+*.dylib
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.vscode/
+.idea/
+.DS_Store

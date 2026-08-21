@@ -1,0 +1,43 @@
+project:
+  name: lade_dynamic_routing
+  random_seed: 42
+
+data:
+  delivery: data/raw/delivery_jl.csv
+  roads: data/raw/roads.csv
+  database: data/interim/lade.duckdb
+  road_nodes: data/processed/road_nodes_jl.parquet
+  road_edges: data/processed/road_edges_jl.parquet
+  order_events: data/processed/order_events_jl.parquet
+  courier_day_summary: data/processed/courier_day_summary.parquet
+  baseline_results: data/processed/nearest_neighbor_baseline.parquet
+  instance_manifest: data/processed/benchmark_instances/manifest.csv
+  optimization_results: data/processed/optimization_results.parquet
+
+processing:
+  order_city: Jilin
+  road_city: 吉林市
+  reference_year: 2000
+  road_node_round_decimals: 2
+  snap_warning_meters: 500
+  minimum_route_orders: 3
+  instances_per_region: 3
+  minimum_instance_orders: 20
+  dispatch_interval_seconds: 300
+  synthetic_sla_seconds: 7200
+  assumed_speed_kph: 20
+  service_time_seconds: 120
+
+optimization:
+  capacity_factor: 1.50
+  cp_sat_time_limit_seconds: 6
+  cp_sat_num_workers: 1
+  pyvrp_iterations: 250
+  late_penalty_meters_per_second: 1.0
+  workload_std_penalty_meters: 100.0
+  alns_iterations: 250
+  rolling_alns_iterations: 30
+  alns_removal_fraction: 0.12
+  alns_reaction_factor: 0.20
+  alns_cooling_rate: 0.995
+  alns_segment_size: 50

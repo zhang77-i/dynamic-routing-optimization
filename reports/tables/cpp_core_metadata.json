@@ -1,0 +1,26 @@
+{
+  "instance_id": "jl_r53_0529",
+  "orders": 188,
+  "couriers": 7,
+  "compiler": "MinGW64 g++",
+  "dll": "cpp/build/lade_route_core.dll (not distributed)",
+  "validation": {
+    "checked_routes": 7,
+    "checked_insertion_positions": 585,
+    "max_route_distance_error": 0.0,
+    "max_insertion_delta_error": 0.0
+  },
+  "two_opt": {
+    "python_distance": 110530.35220459412,
+    "cpp_distance": 110530.35220459412,
+    "absolute_error": 0.0
+  },
+  "microbenchmark": {
+    "operation": "best_insertions",
+    "calls": 6000,
+    "python_seconds": 0.11498430010396987,
+    "cpp_seconds": 0.23940820002462715,
+    "speedup": 0.4802855545137627,
+    "checksum_error": 0.0
+  }
+}
